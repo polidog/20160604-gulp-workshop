@@ -4,7 +4,7 @@
 
 ## ディレクトリ
 - [01: タスクを動かしてみよう](/01/README.md)
-- 02: sassをcssに変えてみよう
+- [02: sassをcssに変えてみよう](/02/README.md)
 - 03: live-reloadさせよう！
 - 04: React + ES6を体験しよう！
 
