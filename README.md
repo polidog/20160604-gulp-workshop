@@ -5,7 +5,7 @@
 ## ディレクトリ
 - [01: タスクを動かしてみよう](/01/README.md)
 - [02: sassをcssに変えてみよう](/02/README.md)
-- 03: live-reloadさせよう！
+- [03: gulp-watchでファイルを監視しよう！](/03/README.md)
 - 04: React + ES6を体験しよう！
 
 ## 必要なもの
