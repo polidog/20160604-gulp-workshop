@@ -8,7 +8,7 @@
 1. gulpのインストールと、gulp-sassのインストール
 1. gulpfile.jsにtaskを記述する
 1. gulpを実行する
-1. ついでにminifyをしてみましょう
+1. pipe()をつなぎ合わせてみよう
 
 ## gulpのインストールと、gulp-sassのインストール
 
