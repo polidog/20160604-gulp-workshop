@@ -6,8 +6,10 @@
 - [01: タスクを動かしてみよう](/01/README.md)
 - [02: sassをcssに変えてみよう](/02/README.md)
 - [03: gulp-watchでファイルを監視しよう！](/03/README.md)
-- 04: React + ES6を体験しよう！
+- [04: Webサーバを動かそう！](/04/README.md)
+- ex: Reactを体験してみよう [https://github.com/ma-tu/react-babel-gulp-browserify-simple](https://github.com/ma-tu/react-babel-gulp-browserify-simple)
 
 ## 必要なもの
 - node
 - npm(3.3系)
+- gulp(3.9.1)

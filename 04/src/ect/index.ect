@@ -1,0 +1,13 @@
+<% block 'title': %>トップページ<% end %>
+
+<% extend 'layout/default.ect' %>
+<% include 'partials/menu.ect' %>
+<h1><%= @projectName %></h1>
+ここはトップページです。
+<% block 'scripts': %>
+<script>
+$(function(){
+  console.log("load")
+})
+</script>
+<% end %>
