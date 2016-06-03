@@ -23,7 +23,7 @@ $ npm install --save-dev gulp gulp-concat
 `src/js/alert.js`と`src/js/alert2.js`をつなぎあわせます。  
 つなぎあわせた後に出力するファイル名は`alert.js`とします。  
 
-出力先は`dist/js/alert.js`となります。
+出力先は`dist/js`となります。
 
 タスク名は`js-concat`にしましょう。
 
@@ -34,6 +34,10 @@ $ npm install --save-dev gulp gulp-concat
 ```
 // gulpfile.js
 ...
+
+gulp.task("watch", function(){
+  gulp.watch('./src/js/*.js', ['js-conncat']);
+});
 
 gulp.task('default',['js-conncat','watch']);
 ```
