@@ -23,6 +23,8 @@ $ npm install --save-dev gulp
 ## 2. gulpfile.jsを作成しましょう。
 
 Gulpのタスクはgulpfile.jsに記述します。  
+今回はタスクのなかで`console.log`で文字列を出力させます。
+
 
 ```
 // gulpfile.js
