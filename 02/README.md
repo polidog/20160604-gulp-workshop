@@ -76,7 +76,7 @@ $ npm install --save-dev gulp-clean-css
 ```
 var gulp = require('gulp');
 var sass = require('gulp-sass');
-var cleanCSS = require('glup-clean-css');
+var cleanCSS = require('gulp-clean-css');
 
 gulp.task('sass',function(){
   var stream = gulp.src('src/sass/*.scss')
